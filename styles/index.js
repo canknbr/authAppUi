@@ -2,12 +2,11 @@ import {StyleSheet} from 'react-native';
 import COLORS from '../const/color';
 
 const STYLES = StyleSheet.create({
-  inputContainer: {flexDirection: 'row', marginTop: 20, alignItems:"center",},
+  inputContainer: {flexDirection: 'row', marginTop: 20, alignItems:"center",height:48,  borderBottomWidth: 1,
+  borderColor: COLORS.light,},
   input: {
     color: COLORS.light,
     paddingLeft: 30,
-    borderBottomWidth: 1,
-    borderColor: COLORS.light,
     flex: 1,
     fontSize: 18,
   },
